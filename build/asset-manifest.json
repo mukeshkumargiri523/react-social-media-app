@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef7f529e.css",
-    "main.js": "/static/js/main.b4a15878.js",
+    "main.js": "/static/js/main.dbc1ea5c.js",
     "static/media/Beats_main_logo-removebg-preview.png": "/static/media/Beats_main_logo-removebg-preview.54673192b42367220547.png",
     "static/media/Beatlogo-removebg-preview.png": "/static/media/Beatlogo-removebg-preview.a92a236d64a8d8b5c6d0.png",
     "static/media/clock-svgrepo-com.svg": "/static/media/clock-svgrepo-com.be002946603b43e1bbd60a5f1115f055.svg",
@@ -24,10 +24,10 @@
     "static/media/graph2-svgrepo-com.svg": "/static/media/graph2-svgrepo-com.d85429b7dd8ce88a0a555632621c9b2e.svg",
     "static/media/save-svgrepo-com.svg": "/static/media/save-svgrepo-com.399a1b5e2c358e982ee1d87df8350b1f.svg",
     "main.ef7f529e.css.map": "/static/css/main.ef7f529e.css.map",
-    "main.b4a15878.js.map": "/static/js/main.b4a15878.js.map"
+    "main.dbc1ea5c.js.map": "/static/js/main.dbc1ea5c.js.map"
   },
   "entrypoints": [
     "static/css/main.ef7f529e.css",
-    "static/js/main.b4a15878.js"
+    "static/js/main.dbc1ea5c.js"
   ]
 }
