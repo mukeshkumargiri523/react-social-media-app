@@ -26,6 +26,19 @@ export const getPost = async (req, res) => {
   }
 };
 
+//post comments
+export const commentPost = async (req, res) => {
+  const postId = req.params.id;
+  const { comment } = req.body;
+  try {
+    let post = await PostModel.findById(postId);
+    await post.updateOne({ $push: { comment: comment } });
+    res.status(200).json("post commented success");
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
 //update a post
 export const updatePost = async (req, res) => {
   const postId = req.params.id;
