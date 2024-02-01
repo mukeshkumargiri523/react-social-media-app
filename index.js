@@ -18,10 +18,7 @@ const app = express();
 //to serve images to public
 app.use(express.static(path.resolve("build")));
 app.use(express.static("public"));
-app.use(
-  "https://react-socialbeats-app.vercel.app/images",
-  express.static("images")
-);
+app.use("/images", express.static("images"));
 
 //middleware
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
